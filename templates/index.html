@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="../static/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;1,100;1,500&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- styles-->
+    <title>Open proxychange</title>
+  </head>
+  <body>
+    <div id="log_output">
+    </div>
+    <form action="http://localhost:5000/proxynone" method="post">
+      <button type="submit" value="proxynone">
+    </form>
+  </body>
+</html>
+<script>
+  setTimeout(() => {
+    let output_log = '{{output_log}}'
+    $('#log_output').html =+ output_log;
+  }, 1000);
+</script>
