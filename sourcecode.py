@@ -6,7 +6,7 @@ from time import sleep
 from os import system
 from eel import *
 from flask import render_template
-
+# ijaidj
 def server_status(server):
 
     # Check if we can ping the server
